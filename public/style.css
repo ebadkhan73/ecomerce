@@ -1,0 +1,132 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
+}
+.container{
+  width: 100%;
+  height: auto;
+  background-color:black;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  background-color: brown;
+  padding: 10px;
+  overflow: hidden;
+}
+.link{
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: azure;
+  text-align: center;
+  text-decoration: none;
+  line-height: 25px;
+  padding: 12px;
+  float: left;
+  border-radius: 50px;
+}
+.logo{
+  width: 50px;
+}
+.menu{
+  float: right;
+}
+nav .link:hover{
+  background-color: #c97b7b;
+  color: #2a0a5e;
+}
+nav .selected{
+  background-color: #834242;
+  color: white;
+}
+nav .logo{
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+img{
+  width: 100%;
+}
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col{
+  flex-basis: 50%;
+
+}
+h3{
+  color: #fff;
+  font-size: 30px;
+}
+p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 15px;
+  padding: 2px;
+}
+footer{
+  background-color: #111;
+}
+.footer{
+  width: 100%;
+  padding: 70px 30px 20px;
+
+}
+.socialicon{
+  display: flex;
+  justify-content: center;
+}
+.socialicon a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicon a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.socialicon a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialicon a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footernav{
+  margin: 30px 0;
+}
+.footernav ul{
+  display: flex;
+  justify-content: center;
+}
+.footernav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7s;
+  transition: 0.5s;
+}
+.footernav ul li a:hover{
+  opacity: 1;
+}
+.footerbotttom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+.footerbotttom p{
+  color: white;
+  
+}
